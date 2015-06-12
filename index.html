@@ -1,62 +1,83 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
+    <title>Home</title>
+    <!-- test -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link rel="stylesheet" href="custom.css">
+  </head>
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
+  <body>
+    
+    <!-- Navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          
+          <!-- Navbar Toggle Button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class='sr-only'>Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <!-- Brand -->
+          <a class="navbar-brand specialbrand" href="#">WMAA</a>
+        </div>
+          
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Test</li>
+                  <li class="dropdown-header">Test 2</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    
+    <div class="site-content">
+        <div class="jumbotron">
+          <h1 align="center">WMAA 10th Grade English Project</h1>
+          <p align="center">Test Webpage</p>
+        </div>
+    </div>
+    
+    <div>
+      <a href="causesofdeath.html">Causes of Death</a>
+      <p>--</p>
+      <a href="ukraine.html">Ukraine Displacement</a>
+      <p>--</p>
+      <a href="mediterranean.html">Mediterranean</a>
+      <p>--</p>
+      <a href="climatechange.html">Climate Change</a>
+      <p>--</p>
+      <a href="haitiearthquake.html">Haiti Earthquake</a>
+      <p>--</p>
+      <a href="southeastasia.html">South East Asia</a>
+      <p>--</p>
+      <a href="india.html">India Migration</a>
+    </div>
+    
 
-</style>
-</head>
-
-<body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
-
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
-</body>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+  </body>
 </html>
+
