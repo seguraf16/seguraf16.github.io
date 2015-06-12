@@ -1,0 +1,40 @@
+.container {
+    position: absolute;
+    width: 100%;
+    padding: 0
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+
+
+.jumbotron {
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #1975a3;
+    width:100%;
+    color: white;
+    
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #f3f3f3;
+}
+
+.specialbrand {
+    color: #1975a3;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+}
+
+.page-heading-1 {
+    margin: 10px;
+    border-bottom: 1px solid #cccccc;
+}
